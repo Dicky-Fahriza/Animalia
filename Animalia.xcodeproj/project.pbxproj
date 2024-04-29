@@ -15,6 +15,9 @@
 		5274647D2BDF35E7001537BF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 527464782BDF35E7001537BF /* covers.json */; };
 		5274647E2BDF35E7001537BF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 527464792BDF35E7001537BF /* locations.json */; };
 		5274647F2BDF35E7001537BF /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 5274647A2BDF35E7001537BF /* videos.json */; };
+		527464832BDF37EB001537BF /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464822BDF37EB001537BF /* CoverImageView.swift */; };
+		527464862BDF3905001537BF /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464852BDF3905001537BF /* CoverImageModel.swift */; };
+		527464892BDF39EC001537BF /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464882BDF39EC001537BF /* Bundle+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		527464782BDF35E7001537BF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		527464792BDF35E7001537BF /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		5274647A2BDF35E7001537BF /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		527464822BDF37EB001537BF /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		527464852BDF3905001537BF /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		527464882BDF39EC001537BF /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,10 @@
 		527464652BDF327F001537BF /* Animalia */ = {
 			isa = PBXGroup;
 			children = (
+				527464872BDF398D001537BF /* Extensions */,
+				527464802BDF37A1001537BF /* Modules */,
 				527464762BDF3298001537BF /* App */,
-				527464752BDF3290001537BF /* View */,
+				527464752BDF3290001537BF /* Main */,
 				527464742BDF3287001537BF /* Resources */,
 				5274646C2BDF3281001537BF /* Preview Content */,
 			);
@@ -84,12 +92,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		527464752BDF3290001537BF /* View */ = {
+		527464752BDF3290001537BF /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				527464682BDF327F001537BF /* ContentView.swift */,
 			);
-			path = View;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		527464762BDF3298001537BF /* App */ = {
@@ -109,6 +117,39 @@
 				5274647A2BDF35E7001537BF /* videos.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		527464802BDF37A1001537BF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				527464842BDF3849001537BF /* Models */,
+				527464812BDF37C5001537BF /* Screen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		527464812BDF37C5001537BF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				527464822BDF37EB001537BF /* CoverImageView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		527464842BDF3849001537BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				527464852BDF3905001537BF /* CoverImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		527464872BDF398D001537BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				527464882BDF39EC001537BF /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				527464692BDF327F001537BF /* ContentView.swift in Sources */,
+				527464832BDF37EB001537BF /* CoverImageView.swift in Sources */,
+				527464892BDF39EC001537BF /* Bundle+Ext.swift in Sources */,
 				527464672BDF327F001537BF /* AnimaliaApp.swift in Sources */,
+				527464862BDF3905001537BF /* CoverImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,11 +366,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Animalia/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,11 +397,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Animalia/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
