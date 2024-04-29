@@ -29,6 +29,7 @@
 		527464A12BDF82A0001537BF /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464A02BDF82A0001537BF /* InsetFactView.swift */; };
 		527464A32BDF8B4F001537BF /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464A22BDF8B4F001537BF /* InsetMapView.swift */; };
 		527464A52BDF8E34001537BF /* CLLocation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464A42BDF8E34001537BF /* CLLocation+Ext.swift */; };
+		527464A72BDF9464001537BF /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464A62BDF9464001537BF /* ExternalWebLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		527464A02BDF82A0001537BF /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		527464A22BDF8B4F001537BF /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		527464A42BDF8E34001537BF /* CLLocation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Ext.swift"; sourceTree = "<group>"; };
+		527464A62BDF9464001537BF /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				5274649E2BDF7F69001537BF /* InsetGalleryView.swift */,
 				527464A02BDF82A0001537BF /* InsetFactView.swift */,
 				527464A22BDF8B4F001537BF /* InsetMapView.swift */,
+				527464A62BDF9464001537BF /* ExternalWebLinkView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				527464892BDF39EC001537BF /* Bundle+Ext.swift in Sources */,
 				5274649D2BDF7CBE001537BF /* HeadingView.swift in Sources */,
 				527464672BDF327F001537BF /* AnimaliaApp.swift in Sources */,
+				527464A72BDF9464001537BF /* ExternalWebLinkView.swift in Sources */,
 				527464862BDF3905001537BF /* CoverImageModel.swift in Sources */,
 				527464A32BDF8B4F001537BF /* InsetMapView.swift in Sources */,
 				527464932BDF44BD001537BF /* AnimalListItemView.swift in Sources */,
