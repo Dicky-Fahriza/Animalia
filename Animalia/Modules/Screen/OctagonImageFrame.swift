@@ -17,7 +17,7 @@ struct OctagonImageFrame: View {
             .frame(width: 300, height: 300)
             .clipShape(OctagonShape())
             .overlay {
-                Circle().stroke(Color.white, lineWidth: 5)
+                OctagonShape().stroke(Color.white, lineWidth: 5)
             }
     }
 }

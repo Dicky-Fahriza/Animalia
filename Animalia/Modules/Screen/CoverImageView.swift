@@ -20,7 +20,7 @@ struct CoverImageView: View {
                 Image(item.name)
                     .resizable()
                     .scaledToFill()
-                onTapGesture {
+                    .onTapGesture {
                     showingSheet.toggle()
                     selectedCover = item
                 }
