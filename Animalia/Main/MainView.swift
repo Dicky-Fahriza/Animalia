@@ -36,9 +36,9 @@ struct MainView: View {
                     Label("Gallery", systemImage: "photo")
                 }
             
-            MainView()
+            AlbumView()
                 .tabItem {
-                    Label("Photos", systemImage: "photo.on.rectangle")
+                    Label("Photos", systemImage: "photo.on.rectangle.angled")
                 }
         }
     }
