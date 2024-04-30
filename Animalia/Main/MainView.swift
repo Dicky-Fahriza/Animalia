@@ -15,7 +15,7 @@ struct MainView: View {
                     Label("Browse", systemImage: "square.grid.2x2")
                 }
             
-            Text("Video View")
+            WatchView()
                 .tabItem {
                     Label("Watch", systemImage: "play.rectangle")
                 }
@@ -25,7 +25,7 @@ struct MainView: View {
                     Label("Locations", systemImage: "map")
                 }
             
-            Text("Gallery")
+            GalleryView()
                 .tabItem {
                     Label("Gallery", systemImage: "photo")
                 }

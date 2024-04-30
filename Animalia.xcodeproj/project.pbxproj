@@ -45,6 +45,8 @@
 		527464C72BE09671001537BF /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 527464BC2BE09670001537BF /* zebra.mp4 */; };
 		527464C92BE096AD001537BF /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464C82BE096AD001537BF /* VideoListItemView.swift */; };
 		527464CB2BE098F8001537BF /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464CA2BE098F8001537BF /* WatchView.swift */; };
+		527464CD2BE09DDB001537BF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464CC2BE09DDA001537BF /* GalleryView.swift */; };
+		527464D02BE09E26001537BF /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464CF2BE09E26001537BF /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		527464BC2BE09670001537BF /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
 		527464C82BE096AD001537BF /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		527464CA2BE098F8001537BF /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		527464CC2BE09DDA001537BF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		527464CF2BE09E26001537BF /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 				527464682BDF327F001537BF /* BrowseView.swift */,
 				527464982BDF6082001537BF /* MainView.swift */,
 				527464CA2BE098F8001537BF /* WatchView.swift */,
+				527464CC2BE09DDA001537BF /* GalleryView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 		527464812BDF37C5001537BF /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				527464CE2BE09E05001537BF /* Gallery */,
 				527464AA2BE08D97001537BF /* Watch */,
 				527464A92BE08D51001537BF /* Browse */,
 				527464922BDF44BD001537BF /* AnimalListItemView.swift */,
@@ -281,6 +287,14 @@
 				527464BC2BE09670001537BF /* zebra.mp4 */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		527464CE2BE09E05001537BF /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				527464CF2BE09E26001537BF /* MotionAnimationView.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,10 +397,12 @@
 				527464A72BDF9464001537BF /* ExternalWebLinkView.swift in Sources */,
 				527464CB2BE098F8001537BF /* WatchView.swift in Sources */,
 				527464862BDF3905001537BF /* CoverImageModel.swift in Sources */,
+				527464CD2BE09DDB001537BF /* GalleryView.swift in Sources */,
 				527464AD2BE08F5F001537BF /* VideoModel.swift in Sources */,
 				527464A32BDF8B4F001537BF /* InsetMapView.swift in Sources */,
 				527464932BDF44BD001537BF /* AnimalListItemView.swift in Sources */,
 				527464972BDF5D33001537BF /* AnimalGridItemView.swift in Sources */,
+				527464D02BE09E26001537BF /* MotionAnimationView.swift in Sources */,
 				5274649F2BDF7F69001537BF /* InsetGalleryView.swift in Sources */,
 				527464B22BE09209001537BF /* VideoPlayerView.swift in Sources */,
 			);
