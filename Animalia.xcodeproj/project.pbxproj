@@ -47,6 +47,9 @@
 		527464CB2BE098F8001537BF /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464CA2BE098F8001537BF /* WatchView.swift */; };
 		527464CD2BE09DDB001537BF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464CC2BE09DDA001537BF /* GalleryView.swift */; };
 		527464D02BE09E26001537BF /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464CF2BE09E26001537BF /* MotionAnimationView.swift */; };
+		527464D22BE0C5B1001537BF /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464D12BE0C5B1001537BF /* LocationModel.swift */; };
+		527464D52BE0C6CE001537BF /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464D42BE0C6CE001537BF /* MapAnnotationView.swift */; };
+		527464D72BE0CA11001537BF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464D62BE0CA11001537BF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +95,9 @@
 		527464CA2BE098F8001537BF /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
 		527464CC2BE09DDA001537BF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		527464CF2BE09E26001537BF /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		527464D12BE0C5B1001537BF /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		527464D42BE0C6CE001537BF /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		527464D62BE0CA11001537BF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,7 @@
 				527464982BDF6082001537BF /* MainView.swift */,
 				527464CA2BE098F8001537BF /* WatchView.swift */,
 				527464CC2BE09DDA001537BF /* GalleryView.swift */,
+				527464D62BE0CA11001537BF /* MapView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 		527464812BDF37C5001537BF /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				527464D32BE0C6A6001537BF /* Map */,
 				527464CE2BE09E05001537BF /* Gallery */,
 				527464AA2BE08D97001537BF /* Watch */,
 				527464A92BE08D51001537BF /* Browse */,
@@ -214,6 +222,7 @@
 				527464852BDF3905001537BF /* CoverImageModel.swift */,
 				527464902BDF43D3001537BF /* AnimalModel.swift */,
 				527464AC2BE08F5F001537BF /* VideoModel.swift */,
+				527464D12BE0C5B1001537BF /* LocationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -295,6 +304,14 @@
 				527464CF2BE09E26001537BF /* MotionAnimationView.swift */,
 			);
 			path = Gallery;
+			sourceTree = "<group>";
+		};
+		527464D32BE0C6A6001537BF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				527464D42BE0C6CE001537BF /* MapAnnotationView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,17 +405,20 @@
 				527464912BDF43D3001537BF /* AnimalModel.swift in Sources */,
 				527464C92BE096AD001537BF /* VideoListItemView.swift in Sources */,
 				527464B02BE09075001537BF /* VideoPlayerHelper.swift in Sources */,
+				527464D72BE0CA11001537BF /* MapView.swift in Sources */,
 				527464832BDF37EB001537BF /* CoverImageView.swift in Sources */,
 				527464992BDF6082001537BF /* MainView.swift in Sources */,
 				527464952BDF504E001537BF /* OctagonImageFrame.swift in Sources */,
 				527464892BDF39EC001537BF /* Bundle+Ext.swift in Sources */,
 				5274649D2BDF7CBE001537BF /* HeadingView.swift in Sources */,
+				527464D52BE0C6CE001537BF /* MapAnnotationView.swift in Sources */,
 				527464672BDF327F001537BF /* AnimaliaApp.swift in Sources */,
 				527464A72BDF9464001537BF /* ExternalWebLinkView.swift in Sources */,
 				527464CB2BE098F8001537BF /* WatchView.swift in Sources */,
 				527464862BDF3905001537BF /* CoverImageModel.swift in Sources */,
 				527464CD2BE09DDB001537BF /* GalleryView.swift in Sources */,
 				527464AD2BE08F5F001537BF /* VideoModel.swift in Sources */,
+				527464D22BE0C5B1001537BF /* LocationModel.swift in Sources */,
 				527464A32BDF8B4F001537BF /* InsetMapView.swift in Sources */,
 				527464932BDF44BD001537BF /* AnimalListItemView.swift in Sources */,
 				527464972BDF5D33001537BF /* AnimalGridItemView.swift in Sources */,
