@@ -5,7 +5,7 @@ Practice projects create animalia program
 
 ## Screen Shoot
 
-![App Screenshot](https://res.cloudinary.com/dyhiieqlt/image/upload/v1714920827/Screenshot_2024-05-05_at_21.50.47_la1vmi.png)
+![App Screenshot](https://res.cloudinary.com/dyhiieqlt/image/upload/v1714921247/Screenshot_2024-05-05_at_21.57.07_e0vnnc.png)
 ## Authors
 
 - [@dickyfahriza](https://www.github.com/dicky-fahriza)
